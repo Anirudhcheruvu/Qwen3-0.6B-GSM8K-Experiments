@@ -119,7 +119,7 @@ python inference.py --model-id AnirudhCheruvu/Qwen3-GSM8k-LoRA-r32-FP32-eval-sco
 
 Include the evaluation outputs below for severa experimental settigns.
 
-- `results/jsonl/`
+- `inference_scores/`
   - `zero_shot_model_outputs.jsonl`
   - `cot_model_outputs.jsonl`
   - `few_shot_model_outputs.jsonl`
