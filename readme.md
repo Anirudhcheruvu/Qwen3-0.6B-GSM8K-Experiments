@@ -8,7 +8,7 @@ Fast, reproducible experiments on GSM8K with Qwen3-0.6B:
 
 Prompting strategies (GSM8K test)
 
-<img width="600" height="514" alt="image" src="https://github.com/user-attachments/assets/742ab578-a373-4c99-86a0-7af3e1ef6bd7" />
+<img width="380" height="514" alt="image" src="https://github.com/user-attachments/assets/742ab578-a373-4c99-86a0-7af3e1ef6bd7" />
 
 - Direct Answer: 8.18%
 - Chain of Thought (CoT): 54.13%
@@ -18,7 +18,7 @@ Takeaway: CoT boosts accuracy substantially over direct answers. Few-shot CoT un
 
 Effect of chat format and think tags
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/6e7ad4ea-60e5-4aa7-8d91-afee39b1ce89" />
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/6e7ad4ea-60e5-4aa7-8d91-afee39b1ce89" />
 
 - CoT without `<think>`: 54.1%
 - CoT with `<think>`: 66.7%
@@ -27,7 +27,7 @@ Takeaway: After SFT, the model is aligned to produce reasoning inside `<think>..
 
 LoRA vs full fine-tuning on GSM8K
 
-<img width="600" alt="image" src="https://github.com/user-attachments/assets/7984f8e6-d3f3-4d85-81f0-faaa9e9a1dbc" />
+<img width="380" alt="image" src="https://github.com/user-attachments/assets/7984f8e6-d3f3-4d85-81f0-faaa9e9a1dbc" />
 
 - Full fine-tuning: 48.1%
 - LoRA rank 4: 44.65%
