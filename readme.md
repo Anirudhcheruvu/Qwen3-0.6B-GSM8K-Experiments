@@ -1,6 +1,6 @@
 # Qwen3-0.6B on GSM8K — Benchmarks
 
-Fast, reproducible experiments on GSM8K with Qwen3-0.6B:
+Highlighting experiments and conclusions on training Qwen3 0.6B model on GSM8k dataset.:
 - Prompting modes: direct answer, chain-of-thought (CoT), few-shot CoT, and “thinking” with `<think>` tags
 - Full SFT and LoRA fine-tuning (ChatML + `<think>` prefill)
 
