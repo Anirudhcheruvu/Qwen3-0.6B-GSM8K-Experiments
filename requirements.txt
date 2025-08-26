@@ -1,0 +1,7 @@
+datasets
+trl
+transformers
+tensorboard
+peft
+Tqdm
+Accelerate
