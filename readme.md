@@ -7,6 +7,9 @@ Fast, reproducible experiments on GSM8K with Qwen3-0.6B:
 ## Results and insights
 
 Prompting strategies (GSM8K test)
+
+<img width="720" height="514" alt="image" src="https://github.com/user-attachments/assets/742ab578-a373-4c99-86a0-7af3e1ef6bd7" />
+
 - Direct Answer: 8.18%
 - Chain of Thought (CoT): 54.13%
 - Few-shot with CoT: 43.06%
@@ -14,12 +17,18 @@ Prompting strategies (GSM8K test)
 Takeaway: CoT boosts accuracy substantially over direct answers. Few-shot CoT underperformed plain CoT—likely because a 650M-parameter model is more easily distracted by extra examples than larger LLMs.
 
 Effect of chat format and think tags
+
+<img width="720" height="514" alt="image" src="https://github.com/user-attachments/assets/6e7ad4ea-60e5-4aa7-8d91-afee39b1ce89" />
+
 - CoT without `<think>`: 54.1%
 - CoT with `<think>`: 66.7%
 
 Takeaway: After SFT, the model is aligned to produce reasoning inside `<think>...</think>`. Prompting with those tags at inference improves accuracy. Smaller model appears to be especially sensitive to the template details.
 
 LoRA vs full fine-tuning on GSM8K
+
+<img width="720" height="514" alt="image" src="https://github.com/user-attachments/assets/7984f8e6-d3f3-4d85-81f0-faaa9e9a1dbc" />
+
 - Full fine-tuning: 48.1%
 - LoRA rank 4: 44.65%
 - LoRA rank 32: 43.21%
@@ -40,9 +49,7 @@ Profile: https://huggingface.co/AnirudhCheruvu
 
 ## Medium article
 
-- Medium: <add-your-article-link-here>
-- I’ll also link this article from each model card’s “External resources” on the Hub.
-
+- Medium: https://medium.com/@anirudhcheruvu2014/experiments-on-qwen3-0-6b-f531d0291f8f
 ## Quickstart
 
 Install (uses this repo’s `requirements.txt` as-is):
